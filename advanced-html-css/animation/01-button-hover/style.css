@@ -18,8 +18,10 @@ button {
   text-align: center;
 }
 
+button {
+  transition: transform .5s ease-in-out;
+}
+
 button:hover {
-  background-color: #1e40af;
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
+  transform: scale(1.3)
 }
