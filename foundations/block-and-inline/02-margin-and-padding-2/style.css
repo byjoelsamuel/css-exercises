@@ -1,20 +1,42 @@
 body {
   background: gray;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .card {
   width: 400px;
   background: white;
-  margin: 16px auto;
+  text-align: left;
+  margin: 10px auto;
+  padding: 8px;
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
 
 button {
   background: white;
+  font-size: 16px;
+  align-items: center;
+  height: 42px;
+  width: 120px;
+  text-align: center;
+  display: block; 
+  margin: 1px auto 0; /* Used Claude for Display block and margin */
+}
+
+.title {
+  text-align: left;
+}
+
+.content {
+  text-align: left;
 }
